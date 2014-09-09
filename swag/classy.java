@@ -1,0 +1,11 @@
+import javax.swing.*;
+import java.net.*;
+
+public class classy
+{
+    public static void main(String[] args) throws Exception
+    {
+       URL imageLocation = new URL("http://horstman.com/java4everyone/duke.gif");
+       JOptionPane.showMessageDialog(null, "Hello", "Title",JOptionPane.PLAIN_MESSAGE,new ImageIcon(imageLocation));
+    }
+}
